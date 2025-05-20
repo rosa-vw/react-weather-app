@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.Data {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  text-align: left;
+}
+
+img {
+  display: inline-block;
+}
