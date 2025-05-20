@@ -11,6 +11,12 @@
   justify-content: center;
 }
 
+.Footer {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+
 ul {
   text-align: left;
 }
