@@ -1,0 +1,63 @@
+.Weather .Form {
+  display: flex;
+  justify-content: start;
+}
+
+.Weather .SearchForm {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-width: 1px;
+  font-size: 16px;
+}
+
+.Weather .SearchButton {
+  padding: 10px 15px;
+  margin-left: 20px;
+  border-radius: 6px;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-width: 1px;
+  font-size: 16px;
+}
+
+.Weather h1 {
+  margin: 20px 0 0 0;
+  font-size: 40px;
+}
+
+.Weather h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 200;
+}
+.Weather ul {
+  padding: 0;
+}
+
+.Weather .Description {
+  text-transform: capitalize;
+}
+.Weather li {
+  list-style: none;
+}
+
+.Weather .WeatherData {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Weather .TempIcon {
+  display: flex;
+}
+.Weather img {
+  width: 120px;
+}
+
+.Weather .TempNumber {
+  font-size: 80px;
+}
+
+.Weather span {
+  font-size: 32px;
+  margin-top: 8px;
+}
