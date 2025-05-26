@@ -3,3 +3,7 @@
   opacity: 0.3;
   text-align: center;
 }
+
+.Footer a {
+  color: rgb(70, 126, 126);
+}

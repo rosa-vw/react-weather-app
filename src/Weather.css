@@ -15,9 +15,9 @@
   padding: 10px 15px;
   margin-left: 20px;
   border-radius: 6px;
-  border-color: rgba(0, 0, 0, 0.25);
-  border-width: 1px;
+  border: none;
   font-size: 16px;
+  background-color: rgb(179, 218, 218);
 }
 
 .Weather h1 {
@@ -27,11 +27,13 @@
 
 .Weather h2 {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 200;
+  opacity: 0.5;
 }
 .Weather ul {
   padding: 0;
+  margin: 5px 0;
 }
 
 .Weather .Description {
@@ -50,7 +52,7 @@
   display: flex;
 }
 .Weather img {
-  width: 120px;
+  width: 100px;
 }
 
 .Weather .TempNumber {
