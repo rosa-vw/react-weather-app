@@ -45,14 +45,20 @@
 
 .CurrentWeather .WeatherData {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 40px 0;
 }
 
-.CurrentWeather .TempIcon {
+.CurrentWeather .MainTemperature {
   display: flex;
 }
+
 .CurrentWeather img {
   width: 100px;
+}
+
+.CurrentWeather .ExtraData {
+  margin-top: 4px;
 }
 
 .Temperature {
